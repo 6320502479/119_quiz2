@@ -3,7 +3,7 @@
 int palin(int a)
 {
     int i=1,j,k,count=0;
-    while(i!=a)
+    for(i;i<=a;i++)
     {
         j=i;
         k=flip(i);
@@ -11,7 +11,6 @@ int palin(int a)
         {
           count++;
         }
-        i++;
     }
     return count;
 }
