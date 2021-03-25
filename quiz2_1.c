@@ -15,5 +15,5 @@ int main()
         printf("Not Cube Free");
     else
         printf("%d",count);
-    return 0;
+
 }
