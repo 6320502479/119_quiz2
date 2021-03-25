@@ -8,11 +8,12 @@ int main()
         cupefee=pow(str,3);
         if(i%cupefee!=0)
             count++;
-        if(i>cupefee)
+        if(i>=pow(str+1,3))
          str++;
     }
     if(n%cupefee==0)
         printf("Not Cube Free");
     else
         printf("%d",count);
+    return 0;
 }
